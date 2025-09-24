@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Borí Cano KDS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* For custom scrollbars to match the dark theme */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #2d3748; /* gray-800 */
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #718096; /* gray-600 */
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #a0aec0; /* gray-500 */
+        }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react-dom/": "https://aistudiocdn.com/react-dom@^18.2.0/",
+    "react/": "https://aistudiocdn.com/react@^18.2.0/",
+    "react": "https://aistudiocdn.com/react@^18.2.0"
+  }
+}
+</script>
+</head>
+<body class="bg-gray-900 text-gray-100 antialiased">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

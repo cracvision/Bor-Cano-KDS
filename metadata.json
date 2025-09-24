@@ -1,0 +1,5 @@
+{
+  "name": "Borí Cano KDS",
+  "description": "A real-time Kitchen Display System (KDS) prototype to visualize, organize, and update orders for the Borí Cano Chat project. It focuses on operational clarity, accessibility, and performance on touch devices like iPads.",
+  "requestFramePermissions": []
+}
